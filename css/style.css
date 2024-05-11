@@ -13,13 +13,11 @@ h3 {
     font-family: "Ubuntu", sans-serif;
 }
 
-h2{
+h2, h4{
     font-family: 'Mukta', sans-serif;
 }
 
-h4 {
-    font-family: 'Mukta', sans-serif;
-}
+
 
 body {
     display: flex;
@@ -289,6 +287,10 @@ body {
         align-items: center;
     }
 
+    .img-nav-l {
+        display: none;
+    }
+    
     .header,
     .informacion,
     .footer {
